@@ -1,3 +1,2 @@
-FROM ubuntu
-RUN apt-get update -y
-RUN apt-get install figlet -y
+FROM httpd:2.4
+EXPOSE 80
